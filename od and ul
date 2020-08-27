@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>lists</title>
+</head>
+<body>
+<ol>
+  <li>c</li>
+  <li>python</li>
+</ol>
+<ul>
+      <li>in c language i learned about arrays,pointers,control statements</li>
+      <li>In python i learned about dictionaries,lists,</li>
+      
+ </ul>
+ </body>
+ </html>
