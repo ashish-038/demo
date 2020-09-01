@@ -1,0 +1,30 @@
+# demo
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to return the absolute value of different numbers.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var a = Math.abs(7.25);
+  var b = Math.ceil(-7.25);
+  var c = Math.pow(3, 2);
+  var d = Math.sqrt(4);
+  var e = Math.sin(0 * Math.PI / 180);
+  var f = Math.random();
+  var g = Math.floor(3.5);
+  var h = Math.tan(1);
+  var i = Math.tanh(1);
+
+  var x = a + "<br>" + b + "<br>" + c + "<br>" + d + "<br>" + e + "<br>" + f +  "<br>" + g + "<br>" + h + "<br>" + i;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
