@@ -1,0 +1,23 @@
+# demo
+<html>
+<head>
+<title>java script</title>
+</head>
+<body>
+<h1>java script</h1>
+<p>hi,this is ashish</h1>
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var str = "Visit ashish";
+  var patt = /ashish/i;
+  var result = str.match(patt);
+  document.getElementById("demo").innerHTML = result;
+}
+</script>
+
+</body>
+</html>
