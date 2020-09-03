@@ -6,6 +6,16 @@
 
 <script>
 var d =prompt("enter a number","");
+  try{
+var d =prompt("enter a number","");
+}
+catch ( e ) {
+                  alert("Error: " + e.description );
+                  }
+finally{
+document.write("Answer is ");
+}
+      
 var a;
 if(d>=10)
 {
