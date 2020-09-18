@@ -1,0 +1,4 @@
+# demo
+1.In the drop box once the language is selected it displays particular words to form a sentence in corresponding language selected,but when we select 'select Language' the same page is displayed but the words should be disappeared and nothing should be displayed.
+
+2.There is only one set of words for each language.
